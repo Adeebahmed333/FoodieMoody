@@ -35,11 +35,8 @@ const HeaderComponent = () => {
 const Body = () => {
   return (
     <div>
-      <h4>Foodie Moody</h4>
-      <p>
-        Foodie Moody is a food delivery service that delivers food to your
-        doorstep.
-      </p>
+      <h4>Todo</h4>
+
     </div>
   );
 };
@@ -47,21 +44,17 @@ const Body = () => {
 const Footer = () => {
   return (
     <div>
-      <h4>Foodie Moody</h4>
-      <p>
-        Foodie Moody is a food delivery service that delivers food to your
-        doorstep.
-      </p>
+      <h4>Todo</h4>
     </div>
   );
 };
 const AppLayout = () => {
   return (
-    <div>
+    <>
       <HeaderComponent />
       <Body />
       <Footer />
-    </div>
+    </>
   );
 };
 

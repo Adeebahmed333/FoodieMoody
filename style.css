@@ -37,5 +37,5 @@ body {
   color: #000;
 }
 .nav-items > ul > li > a:hover {
-  color: hsla(108, 40%, 50%,1);
+  color: #50C878;
 }
