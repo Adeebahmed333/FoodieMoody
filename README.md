@@ -2,15 +2,6 @@
 
 FoodieMoody is a food ordering app that allows users to browse and order their favorite meals from a variety of restaurants.
 
-## Features
-
-- Browse and search for restaurants
-- View restaurant menus and meal options
-- Customize and add items to the cart
-- Place and track orders in real-time
-- Secure payment options
-- User profile management
-
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/your-username/FoodieMoody.git`
@@ -22,8 +13,6 @@ FoodieMoody is a food ordering app that allows users to browse and order their f
 
 - React.js
 - Node.js
-- Express.js
-- MongoDB
 - HTML/CSS
 
 ## Contributing
