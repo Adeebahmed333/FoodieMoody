@@ -1,10 +1,7 @@
-import {Body} from "./Body"
-import {Footer} from "./Footer"
-import {HeaderComponent} from "./Header"
-
-export default{
-    Body,
-    Footer,
-    HeaderComponent
-}
+import {body} from "./Body"
+import {footer} from "./Footer"
+import {header} from "./Header"
+export const Body=body;
+export const Footer=footer;
+export const Header=header;
 

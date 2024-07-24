@@ -1,9 +1,11 @@
-
-
-export const Body = () => {
+import { RestaurantCard } from "./RestaurantCard";
+import {restaurantList} from "../config/config"
+export const body = () => {
     return (
-      <div>
-        <h4>Todo</h4>
-      </div>
+      <div className="restaurant-list">
+      {restaurantList.map((restaurant) => {
+        return <RestaurantCard key={restaurant.data.id} {...restaurant.data} />;
+      })}
+    </div>
     );
   };

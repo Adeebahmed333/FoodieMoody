@@ -1,6 +1,6 @@
 import { Title } from "./Title";
 
-export const HeaderComponent = () => {
+export const header = () => {
     return (
       <div className="header">
         <Title />
