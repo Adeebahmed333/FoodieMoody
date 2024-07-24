@@ -1,33 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HeaderComponent } from "./components/Header";
-
+import Components from "./components/index";
 const rootElement = ReactDOM.createRoot(document.getElementById("root"));
 
-const Body = () => {
-  return (
-    <div>
-      <h4>Todo</h4>
-    </div>
-  );
-};
-
-const Footer = () => {
-  return (
-    <div>
-      <h4>Todo</h4>
-    </div>
-  );
-};
 const AppLayout = () => {
   return (
     <>
-      <HeaderComponent />
-      <Body />
-      <Footer />
+      <Components.HeaderComponent />
+      <Components.Body />
+      <Components.Footer />
     </>
   );
 };
 
-//passing the React element to the render
 rootElement.render(<AppLayout />);
